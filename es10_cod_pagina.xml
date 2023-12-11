@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Prologo -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="it"> <!-- obbligatorio, intestazione, metadati descrittivi e dichiarativi sulla risorsa digitale -->
+	    <fileDesc> <!-- obbligatorio, descrizione della fonte da cui è stato preso il testo -->
+			<!--Informazioni riguardanti il titolo del lavoro-->
+			<titleStmt> <!-- codifica del titolo e responsabilità del contenuto -->
+				<title type="full">Manoscritto in memoria di Ennio Artom</title>
+                <author ref="AS"> Amalia Segre</author>  
+			</titleStmt> 
+
+            <!--Informazioni editoriali-->
+			<editionStmt>
+				<edition>Edizione Digitale realizzata come esercitazione per l'esame di Codifica di Testi 
+				</edition>
+				<respStmt>
+				    <resp>Codifica e trascrizione dei testi a cura di </resp>
+				    <name ref="#MS">Matteo Solini, </name>
+                    <note>Mat: 619738. </note>
+				</respStmt>
+			</editionStmt>
+			            <!--Informazioni riguardo la pubblicazione-->
+		   <publicationStmt>
+				<distributor>Università di Pisa</distributor>
+                 <addrLine>56126,</addrLine>
+                 <addrLine>Pisa (PI),</addrLine>
+                <addrLine>IT</addrLine>
+				<availability status="free">
+					<p>Accesso libero</p>
+				</availability>
+		  </publicationStmt>
+
+
+            <!-- <sourceDesc-->
+           <sourceDesc>
+               <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement type="city" ref="#MI">Milano</settlement>
+                        <institution ref="#CDEC"> CDEC - Centro di Documentazione Ebraica Contemporanea  </institution>
+                        <repository ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000001/Fondo+Emanuele+Artom.html">Fondo Emanuele Artom</repository>
+                        <collection>Fondo Emanuele Artom</collection>
+                        <idno>busta 1, fascicolo 7</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1">
+                            <author ref="#AA">Emanuele Artom</author>
+                            <title>Lettera di Emanuele Artom scritta a <placeName>Courmayeur</placeName> il <date>15 luglio 1937</date>;</title>
+                            <textLang mainLang="it">Italiano</textLang>
+                        </msItem>
+                        <msItem n="2">
+                            <author ref="#AA">Ennio Artom</author>
+                            <title>Copertina manoscritta di un libro di algebra con allegato compito di matematica svolto da Ennio Artom il <date>12 novembre 1934</date> conservati dalla madre Amalia</title>
+                            <textLang mainLang="it">Italiano</textLang>
+                        </msItem>
+                        <msItem n="3">
+                            <author ref="#AA">Amalia Segre</author>
+                            <title>Manoscritti scritti da Amalia Segre di rievocazione della vita e della scomparsa del figlio Ennio</title>
+                            <textLang mainLang="it">Italiano</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc material="paper">
+                                <support>Fogli di <material>carta</material>.</support>
+                                <extent>27 pagine</extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <p>Il manoscritto contiene testi scritti da Ennio Artom e sua madre Amalia Segre.</p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+		  </sourceDesc> 
+            <!--Informazioni riguardanti la fonte originale da cui deriva il documento elettronico-->
+        </fileDesc>
+
+		<!-- Relazione tra il documento elettronico e la fonte da cui è derivato -->
+
+		<encodingDesc>
+			<projectDesc>
+				<p>
+                Edizione digitale realizzata come esercitazione della materia di Codifica di testi dell'Università di Pisa
+              
+                </p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+
+    <facsimile>
+        <surface>
+           <graphic xml:id="pag3" url='img/pag3.jpeg' width='760.8px' height='1023.8px' n="3" />
+           <zone xml:id="pag3_r1" ulx="55" uly="33" lrx="646" lry="67"/>
+           <zone xml:id="pag3_r2" ulx="53" uly="70" lrx="737" lry="97"/>
+           <zone xml:id="pag3_r3" ulx="49" uly="108" lrx="727" lry="124"/>
+           <zone xml:id="pag3_r4" ulx="169" uly="130" lrx="731" lry="145"/>
+           <zone xml:id="pag3_r5" ulx="50" uly="144" lrx="697" lry="157"/>
+           <zone xml:id="pag3_r6" ulx="57" uly="164" lrx="723" lry="177"/>
+           <zone xml:id="pag3_r7"  ulx="49" uly="181" lrx="726" lry="198"/>
+           <zone xml:id="pag3_r8" ulx="46" uly="205" lrx="169" lry="217"/>
+           <zone xml:id="pag3_r9" ulx="50" uly="222" lrx="733" lry="237"/>
+           <zone xml:id="pag3_r10" ulx="44" uly="258" lrx="699" lry="273"/>
+       </surface>
+    </facsimile>
+
+    <text>
+       <body>
+          <div>
+             <ab type="page" n="3" xml:lang="it">
+                    <lb n="1"  facs="#facs_pag3_r1" xml:id="pag3_r1"/>
+                    <date>25 Aprile 1920</date> - <date>29 Luglio 1940</date> - Vent'anni<pc type="colon">:</pc>
+
+                    <lb n="2" facs="#facs_pag3_r2" xml:id="pag3_r2"/>
+                      appena il <unclear reason="illegible" cert="low">luccicare</unclear> della vita<pc type="comma">,</pc> ma breve e lumino
+                    
+                    <lb n="3" facs="#facs_pag3_r3" xml:id="pag3_r3" break="no" rend="double_stroke"/>
+                      so veramente<pc type="comma">,</pc> come dice il ricordo marmoreo<pc type="comma">,</pc>
+                    
+                    <lb n="4" facs="#facs_pag3_r4" xml:id="pag3_r4"/>
+                      <add place="above">tenne fama di <gap quantity="6" unit="chars" reason="illegible"/> che si svolgono tra casa e scuola<pc type="comma">,</pc></add>
+                    
+                    <lb n="5" facs="#facs_pag3_r5" xml:id="pag3_r5"/>
+                      promessa<pc type="comma">,</pc> speranza<pc type="comma">,</pc> strazio<pc type="period">.</pc> Concedete a chi
+                    
+                    <lb n="6" facs="#facs_pag3_r6" xml:id="pag3_r6"/>
+                      <add place="above">il formarsi e lo sbocciare di un anima eletta<pc type="comma">,</pc> di un'intelligenza</add>
+                    
+                    <lb n="7" facs="#facs_pag3_r7" xml:id="pag3_r7"/>
+                      L'ha conosciuto nella prima infanzia<pc type="comma">,</pc> di celebra
+                    
+                    <lb n="8" facs="#facs_pag3_r8" xml:id="pag3_r8"/>
+                      <add place="above">eccezionale<pc type="colon">:</pc></add>
+                    
+                    <lb n="9" facs="#facs_pag3_r9" xml:id="pag3_r9" break="no" rend="double_stroke"/>
+                      re anche i ricordi di quei primi anni<pc type="comma">,</pc> <del rend="overstrike">di</del> felici<pc type="period">.</pc>
+                    
+                    <lb n="10" facs="#facs_pag3_r10" xml:id="pag3_r10"/>
+                      <del rend="overstrike">quando si apriva giocondamente alla vita<pc type="period">.</pc></del>
+             </ab>
+          </div>
+       </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Prologo -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="it"> <!-- obbligatorio, intestazione, metadati descrittivi e dichiarativi sulla risorsa digitale -->
+	    <fileDesc> <!-- obbligatorio, descrizione della fonte da cui è stato preso il testo -->
+			<!--Informazioni riguardanti il titolo del lavoro-->
+			<titleStmt> <!-- codifica del titolo e responsabilità del contenuto -->
+				<title type="full">Lettera Bellini</title>
+                <author> Vincenzo Bellini </author>  
+			</titleStmt> 
+
+            <!--Informazioni editoriali-->
+			<editionStmt>
+				<edition>Edizione Digitale realizzata come esercitazione per l'esame di Codifica di Testi 
+				</edition>
+				<respStmt>
+				    <resp>Codifica e trascrizione dei testi a cura di </resp>
+				    <name ref="#MS">Matteo Solini </name>
+                    <note>Mat: 619738. </note>
+				</respStmt>
+			</editionStmt>
+			            <!--Informazioni riguardo la pubblicazione-->
+		   <publicationStmt>
+				<distributor>Matteo Solini</distributor>
+				<availability status="free">
+					<p>Accesso libero</p>
+				</availability>
+		  </publicationStmt>
+
+            <!-- <sourceDesc-->
+           <sourceDesc>
+            <bibl> 
+                   <title>Lettera Bellini</title>
+                    <author>Vincenzo Bellini</author>
+                    <date when="26-06-1834">26 June 1834</date>
+            </bibl>
+		  </sourceDesc> 
+            <!--Informazioni riguardanti la fonte originale da cui deriva il documento elettronico-->
+        </fileDesc>
+
+		<!-- Relazione tra il documento elettronico e la fonte da cui è derivato -->
+
+	</teiHeader>
+ <facsimile>
+        <surface>
+             <graphic url='lettera_bellini.png' width='1083.8px' height='721.8px' />
+             <zone ulx="11" uly="10" lrx="524" lry="104" xml:id="verde" />
+             <zone ulx="10" uly="112" lrx="524" lry="407" xml:id="celeste"/>
+             <zone ulx="11" uly="416" lrx="525" lry="703" xml:id="blu"/>
+             <zone ulx="536" uly="2" lrx="1069" lry="82" xml:id="rosso"/>
+             <zone ulx="579" uly="91" lrx="1057" lry="687" xml:id="arancione"/>
+             <zone ulx="818" uly="644" lrx="1058" lry="703" xml:id="rosa"/>
+        </surface>
+    </facsimile>
+    <text>
+       <body>
+          <section facs="#rosso"> 
+                <ab>
+                    <p>Juen 26: Puteaux _ <gap reason="illegible" extent="1" unit="chars"/>: 19 <unclear reason="illegible" cert="low">bis</unclear> rampe de Neuilly</p>
+                </ab>
+            </section>
+
+            <section facs="#arancione"> 
+                <ab>
+                    Mio caro <persName>Carluccio</persName>
+                    Avendo steso l'intero duetto
+                    e mancando in esso qualche
+                    cosetta, desidererei che tu
+                    t'incommodassi a venire a
+                    Puteaux per <unclear reason="illegible" cert="low">sotto</unclear> firmare ,e
+                    nell'istesso tempo darmi la
+                    <gap reason="illegible" extent="6" unit="chars"/> di <gap reason="illegible" extent="8" unit="chars"/>, se è <gap reason="illegible" extent="5" unit="chars"/>
+                    <gap reason="illegible" extent="4" unit="chars"/>. T'aspetto in qual giorno
+                    ed in qual'ora <gap reason="illegible" extent="5" unit="chars"/>_ Addio
+                </ab>
+            </section>
+
+            <section facs="#rosa"> 
+                <ab>
+                    Il tuo Vincenzillo
+                </ab>
+            </section>
+
+            <section facs="#verde"> 
+                <p><stamp>Timbro</stamp></p>
+            </section>
+
+            <section facs="#celeste"> 
+                à Monsieur
+                <stamp>Timbro</stamp>
+                Monsieur le Conte <persName><surname>Pepoli</surname></persName>
+                <gap reason="illegible" extent="1" unit="line"/>
+                à Paris
+            </section>
+
+            <section facs="#blu"> 
+                Lettera del 
+                Bellini sul duetto
+                del p°: atto dei Puritani
+                <stamp>Timbro</stamp>
+            </section>
+       </body>
+    </text>
+</TEI>

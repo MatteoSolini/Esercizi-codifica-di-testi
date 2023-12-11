@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE TEI [
+<!ELEMENT TEI (header, facsimile?, testo+)>
+<!ELEMENT  header (#PCDATA)>
+<!ELEMENT  facsimile (#PCDATA)>
+<!ELEMENT  seg (#PCDATA)>
+<!ELEMENT  testo (#PCDATA|seg)*>
+
+<!ATTLIST header type CDATA #FIXED "intestazione">
+<!ATTLIST header lang NMTOKEN #IMPLIED>
+<!ATTLIST facsimile source CDATA #REQUIRED>
+<!ATTLIST facsimile ref IDREFS #IMPLIED>
+<!ATTLIST testo id ID #REQUIRED>
+<!ATTLIST testo type CDATA #IMPLIED>
+]>
+
+<TEI>
+   <header type="intestazione" lang="IT">
+      prova intestazione
+   </header>
+
+    <facsimile source="fonte" ref="identificatore" >
+      prova della fonte
+    </facsimile>
+
+    <testo id="identificatore" >
+       testo  <seg>deve essere misto</seg>
+    </testo>
+
+    <testo id="identificatore2" type="tipologia">
+        Secondo testo
+    </testo>
+
+
+</TEI>
+
+<!--
+root: TEI
+Figli:
+- header(obbligatorio una volta sola)
+- facsimile(opzionale una volta sola)
+- testo(obbligatorio una o più volte)
+* testo è un mixed content con possibile elemento <seg> Attributi:
+
+- header: type:(fixed, CDATA “intestazione”); lang(opzionale, NMTOKEN)
+- facsimile: source:(obbligatorio); ref(opzionale, IDREFS)
+- testo: id(obbligatorio, ID) type(opzionale contenuto testuale) 
+
+    MODIFICATORI
+    header: non ha bisogno di alcun modificatore perché questo elemento si deve presentare solo una volta
+    facsimile: ho utilizzato il modifoicatore ? perché c'è bisongo di zero o al massimo una occorrenza
+    text: ho utilizzato il modificatore + perché c'è bisogno obbligatoriamente di almeno una occorrenza 
+
+    STATO DI ATTRIBUTI
+    #IMPLIED (attributo opzionale)
+    #REQUIRED (attributo obbligatorio)
+    #FIXED (valore fisso dell'attributo) valore dei default
+-->

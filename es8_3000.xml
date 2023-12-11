@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Prologo -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="it"> <!-- obbligatorio, intestazione, metadati descrittivi e dichiarativi sulla risorsa digitale -->
+	    <fileDesc> <!-- obbligatorio, descrizione della fonte da cui è stato preso il testo -->
+			<!--Informazioni riguardanti il titolo del lavoro-->
+			<titleStmt> <!-- codifica del titolo e responsabilità del contenuto -->
+				<title type="full">Il sentiero di nidi di ragno</title>
+                <author> Italo Calvino </author>  
+			</titleStmt> 
+
+            <!--Informazioni editoriali-->
+			<editionStmt>
+				<edition>Edizione Digitale realizzata come esercitazione per l'esame di Codifica di Testi 
+				</edition>
+				<respStmt>
+				    <resp>Codifica e trascrizione dei testi a cura di </resp>
+				    <name ref="#MS">Matteo Solini, </name>
+                    <note>Mat: 619738. </note>
+				</respStmt>
+			</editionStmt>
+			            <!--Informazioni riguardo la pubblicazione-->
+		   <publicationStmt>
+				<distributor>Matteo Solini</distributor>
+				<availability status="free">
+					<p>Accesso libero</p>
+				</availability>
+		  </publicationStmt>  
+
+          <notesStmt>
+                <note>
+                    La codifica del libro "Il sentiero di nidi di ragno" riguarda i primi 3000 caratteri del libro.
+                </note>
+          </notesStmt>
+
+
+            <!-- <sourceDesc-->
+           <sourceDesc>
+               <!-- Descrizione di un singolo manoscritto  -->
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <forename>Italo</forename>
+                                <surname>Calvino</surname>
+                            </persName>
+                        </author>
+                        <title>Il sentiero dei nidi di ragno</title>
+                        <imprint>
+                            <publisher>Mondadori</publisher>
+                            <date when="2016">2016</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+		  </sourceDesc> 
+            <!--Informazioni riguardanti la fonte originale da cui deriva il documento elettronico-->
+        </fileDesc>
+
+		<!-- Relazione tra il documento elettronico e la fonte da cui è derivato -->
+
+		<encodingDesc>
+			<projectDesc>
+				<p>
+                Edizione digitale realizzata come esercitazione della materia di Codifica di testi dell'Università di Pisa,
+                la codifica è stata applicata sui primi 3000 caratteri del libro
+                </p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+
+    <text>
+       <body>
+          <div>
+             <head type="chapter">Capitolo 1 </head>
+              <p n="1"> 
+                  <lb n="1"/>
+                    Per arrivare fino in fondo al vicolo i raggi del sole devo= 
+           
+                  <lb n="2"/>
+                     no scendere diritti rasente le pareti fredde, tenute disco= 
+
+                  <lb n="3" break="no"/>
+                     ste a forza d'arcate che traversano la striscia di cielo az= 
+             
+                  <lb n="4"/> 
+                     zurro carico.
+               </p>
+               <p n="2">
+                  <lb n="5"/>
+                     Scendono diritti, i raggi del sole, giù per le finestre mes=
+                 
+                  <lb n="6"/>
+                     se qua e là in disordine sui muri, e cespi di basilico e di
+                  
+                  <lb n="7"/>
+                     origano piantati dentro pentole ai davanzali, e sottovesti 
+
+                  <lb n="8"/>
+                     stese appese a corde; fin giù al selciato, fatto a gradini e
+
+                  <lb n="9"/>
+                     a ciottoli, con una cunetta in mezzo per l'orina dei muli.
+
+                  <lb n="10"/>
+                     Basta un grido di <persName ref="PI"> Pin</persName>, un grido per incominciare una 
+
+                  <lb n="11"/>
+                     canzone, a naso all'aria sulla soglia della bottega, o un gri=
+
+                  <lb n="12"/>
+                     do cacciato prima che la mano di <persName ref="Pm"> Pietromagro</persName> il ciabatti=
+
+                  <lb n="13"/>
+                     no gli sia scesa tra capo e collo per picchiarlo, perché dai
+                
+                  <lb n="14"/>
+                     davanzali nasca un'eco di richiami e d'insulti.
+               </p>
+               <p n="3">
+                 <lb n="15"/>
+                    <persName ref="PI"> Pin</persName>! Già a quest'ora cominci ad angosciarci! Cantace=
+
+                 <lb n="16"/>
+                     ne un po' una, <persName ref="PI"> Pin</persName>! <persName ref="PI"> Pin</persName>, meschinetto, cosa ti fanno? Pin,
+
+                 <lb n="17"/>
+                     muso di macacco! Ti si seccasse la voce in gola, una vol=
+
+                 <lb n="18"/>
+                     ta! Tu e quel rubagalline del tuo padrone! Tu e quel mate=
+
+                 <lb n="19"/>
+                     rasso di tua sorella!
+               </p>
+               <p n="4">
+                  <lb n="20"/>
+                     Ma già <persName ref="PI"> Pin</persName> è in mezzo al carrugio, con le mani nelle ta=
+
+                  <lb n="21"/>
+                     sche della giacca troppo da uomo per lui, che li guarda in
+
+                  <lb n="22"/>
+                     faccia uno per uno senza ridere: - Di' Celestino, sta' un po' 
+
+                  <lb n="23"/>
+                     zitto, bel vestito nuovo che hai. E-di', quel furto di stoffa
+
+                  <lb n="24"/>
+                     ai Moli Nuovi, poi, non si sa ancora chi sia stato? Be', che
+
+                  <lb n="25"/>
+                     c'entra. Ciao <persName ref="Car"> Carolina</persName>, meno male quella volta. Si, quel=
+
+                  <lb n="26"/>
+                     la volta meno male tuo marito che non ha guardato sotto
+
+                  <lb n="27"/>
+                     il letto. Anche tu, <persName ref="Pas"> Pasca</persName>, m'han detto che è successo pro=
+
+                  <lb n="28"/>
+                     prio al tuo paese. Sì, che <persName ref="Gar"> Garibaldi</persName>ci ha portato il sapone
+
+                  <lb n="29"/>
+                     e i tuoi paesani se lo son mangiato. Mangiasapone, <persName ref="Pas"> Pasca</persName>,
+
+                  <lb n="30"/>
+                     <term xml:id="mondB"> mondoboia</term>, lo sapete quanto costa il sapone?
+               </p>
+               <p n="5">
+                 <lb n="31"/>
+                    <persName ref="PI"> Pin</persName> ha una voce rauca da bambino vecchio: dice ogni 
+
+                 <lb n="32"/>
+                    battuta a bassa voce, serio, poi tutt'a un tratto sbotta in una
+
+                 <lb n="33"/>
+                     risata in i che sembra un fischio e le lentiggini rosse e nere
+
+                 <lb n="34"/>
+                     gli si affollano intorno agli occhi come un volo di vespe.
+
+                 <lb n="35"/>
+                     A canzonare <persName ref="PI"> Pin</persName> c'è sempre da rimettere: conosce tut=
+
+                 <lb n="36"/>
+                     ti i fatti del carrugio e non si sa mai cosa va a tirar fuori.
+
+                 <lb n="37"/>
+                     Mattina e sera sotto le finestre a sgolarsi in canzoni e in
+
+                 <lb n="38"/>
+                     gridi, mentre nella bottega di <persName ref="Pm"> Pietromagro</persName> la montagna
+
+                 <lb n="39"/>
+                     di scarpe sfondate tra poco seppellisce il deschetto e tra=
+
+                 <lb n="40"/>
+                     bocca in istrada. 
+               </p>
+               <p n="6">
+                 <lb n="41"/>
+                   A <persName ref="PI"> Pin</persName> <list><item>Macacco!</item><item>Muso brutto!</item></list> - gli grida qualche donna.
+
+                 <lb n="42"/>
+                 - Mi risuolassi quelle ciabatte invece di starci ad angosciare
+
+                 <lb n="43"/>
+                 tutto il giorno! È un mese che le avete lì nel mucchio. Lo
+
+                 <lb n="44"/>
+                 dirò un po' io al tuo padrone, quando lo metteranno fuori!
+               </p>
+
+               <p n="7">
+                 <lb n="45"/>
+                   <persName ref="Pm"> Pietromagro</persName> passa metà dell'anno in prigione, perché 
+
+                 <lb n="46"/>
+                 è nato disgraziato e quando c'è un furto nei dintorni fini=
+
+                 <lb n="47"/>
+                 scono sempre per mettere dentro lui. Torna e vede la mon=
+
+                 <lb n="48"/>
+                 tagna di scarpe sfondate e la bottega aperta senza dentro
+
+                 <lb n="49"/>
+                  nessuno. Allora si siede al deschetto, piglia una scarpa, la 
+
+                 <lb n="50"/>
+                 gira, la rigira, la ributta nel mucchio; poi si prende la fac=
+
+                 <lb n="51"/>
+                 cia pelosa tra le mani ossute, e sacramenta. Pin arriva fi=
+
+                 <lb n="52"/>
+                 schiando e ancora non sa niente: ed ecco che si trova da=
+
+                 <lb n="53"/>
+                 vanti <persName ref="Pm"> Pietromagro</persName> con quelle mani già alte nell'aria e quelle
+
+                 <lb n="54"/>
+                 pupille incorniciate di giallo e quella faccia nera di barba 
+
+                 <lb n="55"/>
+                 corta come pelo di cane. Grida, ma <persName ref="Pm"> Pietromagro</persName> l'ha ac=
+
+                 <lb n="56"/>
+                 ciuffato e non lo molla; quando è stanco di picchiarlo lo
+
+                 <lb n="57"/>
+                  lascia in bottega <note> il prorpietario della bottega è Pietromagro</note> e s'infila all'osteria. Per quel giorno nes=
+
+                 <lb n="58"/>
+                  suno lo rivede.
+               </p>
+          </div>
+       </body>
+        <back>
+            <div type="glossary">
+                <list type="gloss">
+                    <label>Pin</label>
+                    <item>é il protagonista del libro "sentieri di nidi di ragno", lavora come garzone nella bottega del ciabattino Pietromagro</item>
+                    <label>Pietromagro</label>
+                    <item>Pietromagro è il proprietario della bottega dove lavora Pin</item>
+                </list>
+            </div>
+        </back>
+    </text>
+</TEI>

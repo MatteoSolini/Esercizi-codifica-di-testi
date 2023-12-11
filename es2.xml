@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML DECLARATION-->
+<!--Scrivere e fare un check di un xml non opportunamente annidato-->
+
+
+<radice>
+    <elemento>
+        <elementoFiglio1>
+        
+          <elementoFiglio2>
+
+        </elementoFiglio1>
+
+      
+        </elementoFiglio2>
+        
+    </elemento>
+</radice>
+
+
+
+<!-- 
+errori riportati dal dom.counter perché il file xml non è ben annidato
+[Error] es2.xml:6:8: Document is invalid: no grammar found.
+[Error] es2.xml:6:8: Document root element "radice", must match DOCTYPE root "null".
+[Fatal Error] es2.xml:12:11: The element type "elementoFiglio2" must be terminated by the matching end-tag "</elementoFiglio2>".
+-->

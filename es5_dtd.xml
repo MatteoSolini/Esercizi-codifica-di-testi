@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ELEMENT TEI (header, facsimile?, text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+]>
+
+<TEI>
+    <header>
+        Prova header
+    </header>
+    <facsimile>
+        Prova facsimile
+    </facsimile>
+    <text>
+        Prova text
+    </text>
+</TEI>
+
+<!--
+Definire i seguenti elementi:
+elemento root: TEI
+elementi figli:
+header (obbligatorio una occorrenza)
+facsimile (opzionale una occorrenza)
+text (obbligatorio almeno una occorrenza)
+Gli elementi header, facsimile e text hanno tutti un content
+model testuale
+
+--> 
+<!--
+    MODIFICATORI
+    header: non ha bisogno di alcun modificatore perché questo elemento si deve presentare solo una volta
+    facsimile: ho utilizzato il modifoicatore ? perché c'è bisongo di zero o al massimo una occorrenza
+    text: ho utilizzato il modificatore + perché c'è bisogno obbligatoriamente di almeno una occorrenza 
+ -->
+
